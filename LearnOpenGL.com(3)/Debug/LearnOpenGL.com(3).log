@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\open_gl\learnopengl.com_triangle\learnopengl.com(3)\shader.h(67): warning C4101: 'infoLog': unreferenced local variable
+d:\open_gl\learnopengl.com_triangle\learnopengl.com(3)\shader.h(66): warning C4101: 'success': unreferenced local variable
+d:\open_gl\learnopengl.com_triangle\learnopengl.com(3)\main.cpp(232): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  LearnOpenGL.com(3).vcxproj -> D:\OPEN_GL\LearnOpenGL.com_triangle\Debug\LearnOpenGL.com(3).exe
