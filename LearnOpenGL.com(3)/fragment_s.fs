@@ -1,7 +1,7 @@
 #version 330 core
 out vec4 FragColor;
 //"in vec4  vertexColor;"
-in vec3 ourColor;
+
 in vec2 TexCoord;
  //GLSL has a built-in data-type for texture objects called a sampler that takes as a postfix 
                              //the texture type we want e.g. sampler1D, sampler3D or in our case sampler2D.
@@ -12,7 +12,7 @@ uniform sampler2D texture2;
 void main()
 {
 
-  FragColor =mix(texture(texture1, TexCoord),texture(texture2,vec2( 1-TexCoord.x,TexCoord.y)),0.2 );
+  FragColor = mix(texture(texture1, TexCoord), texture(texture2, TexCoord), 0.2);
   //GLSL's built-in mix function takes two values as input and linearly interpolates between them based on its third argument. If the third value is 0.0
 
   /*
